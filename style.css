@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "starjedi" ;
+    src: url(policeecriture/Starjedi.ttf) format(truetype);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "adl" ;
+    src: url(policeecriture/ADLaMDisplay-Regular.ttf) format(truetype);
+    font-weight: 400;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    font-family:"starjedi";
+}
+
+h3 {
+    font-family: "adl";
+}
+
+.cv-container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 1500px;
+}
+
+.left-column {
+    width: 35%;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.right-column {
+    width: 65%;
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Star Jedi', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-info,
+.skills,
+.projects {
+    margin-bottom: 20px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #195DAE;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.experience-item,
+.education-item {
+    margin-bottom: 15px;
+}
+
+.star {
+    color: #195DAE;
+}
+
+.compétence {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.container {
+    width: 250px;
+    padding: 20px;
+    margin: auto;
+    border: 2px solid black;
+    position: relative;
+    align-items: center;
+}
+.lines {
+    height: 5px;
+    background-color: black;
+    margin: 10px 0;
+}
+.name {
+    font-family: 'Star Jedi', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
